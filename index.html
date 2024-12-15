@@ -6,9 +6,9 @@
     <title>Genuine</title>
     <link rel="shortcut icon" href="https://plus.unsplash.com/premium_photo-1681426687411-21986b0626a8?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGVjaHxlbnwwfHwwfHx8MA%3D%3D" type="image/x-icon">
     <style>
-        *{
+        /* *{
             background-image: url(https://img.etimg.com/thumb/msid-88634316,width-1200,height-900,imgsize-65126,resizemode-8,quality-100/tech/technology/tracking-the-buzz-in-tech.jpg);
-        }
+        } */
         .text{
             color: red;
         }
@@ -29,7 +29,23 @@
     <a href="./Login.html">
         <button class="text">Login</button>
     </a>
-    <a href=""><button></button></a>
+    <!-- <a href=""><button></button></a> -->
+
+    <br>
+    <br>
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="access_key" value="67a0d5d7-95f3-49e6-84fa-336fbf81f51a">
+        Name
+        <input type="text" name="name" required><br>
+        Email
+        <input type="email" name="email" required><br>
+        Message <br>
+        <textarea name="message" required></textarea><br>
+        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+        <button type="submit">Submit Form</button>
+    
+    </form>
     
 
     
